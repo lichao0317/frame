@@ -1,0 +1,22 @@
+{
+    "name": "chundong/cms1",
+    "authors": [
+        {
+            "name": "jcdlky",
+            "email": "2942396864@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "app\\":"app",
+            "system\\":"system"
+        },
+        "files":[
+            "core/config/database.php"
+        ]
+    }
+}
